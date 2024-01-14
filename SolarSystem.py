@@ -55,10 +55,8 @@ def Mercury(t):
     year_periodM = 0.24 * 8
     yearM = t / year_periodM
     dayM = 88 * yearM
-
     glRotatef(yearM * 360.0, 0, 1.0, 0.0)
     Orbit(1.2, 0, -0.25, 0.0)
-
     glTranslatef(1.2, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -78,7 +76,6 @@ def Venus(t):
     dayV = 225 * yearV
     glRotatef(yearV * 360.0, 0, 1, 0)
     Orbit(1.5, 0, -0.25, 0.0)
-
     glTranslatef(1.5, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -97,7 +94,6 @@ def Earth_System(t):
     moon_syn = (365 / 29.5) * year
     glRotatef(year * 360.0, 0, 1, 0)
     Orbit(2.1, 0, -0.25, 0.0)
-
     glTranslatef(2.1, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -124,7 +120,6 @@ def Mars(t):
     dayMa = 687 * yearMa
     glRotatef(yearMa * 360.0, 0, 1, 0)
     Orbit(2.7, 0, -0.25, 0.0)
-
     glTranslatef(2.7, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -144,7 +139,6 @@ def Jupiter(t):
     dayJ = 4332 * yearJ
     glRotatef(yearJ * 360.0, 0, 1, 0)
     Orbit(3.6, 0, -0.25, 0.0)
-
     glTranslatef(3.6, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -181,7 +175,6 @@ def Uranus(t):
     dayU = 687 * yearU
     glRotatef(yearU * 360.0, 0, 1, 0)
     Orbit(5.4, 0, -0.25, 0.0)
-
     glTranslatef(5.4, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
@@ -201,7 +194,6 @@ def Neptune(t):
     dayN = 687 * yearN
     glRotatef(yearN * 360.0, 0, 1, 0)
     Orbit(6, 0, -0.25, 0.0)
-
     glTranslatef(6, -0.25, 0.0)
     glPushMatrix()
     glPushMatrix()
